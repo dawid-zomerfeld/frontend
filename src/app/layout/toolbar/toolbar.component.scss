@@ -1,0 +1,24 @@
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100% !important;
+  font-family: "Lato", sans-serif;
+}
+
+.toolbar-logo {
+  text-decoration: none;
+  color: darken(white, 5%);
+
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.icons {
+  padding-right: 5px;
+  color: darken(white, 5%);
+}
+

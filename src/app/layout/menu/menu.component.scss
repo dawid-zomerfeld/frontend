@@ -1,0 +1,29 @@
+.click {
+  cursor: pointer;
+}
+
+.icons {
+  padding-right: 5px;
+  color: darken(white, 5%);
+}
+
+.main-menu-content {
+  float: right;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      float: left;
+      display: block;
+
+      a {
+        text-decoration: none;
+        color: darken(white, 5%);
+        padding: 14px;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+  }
+}
