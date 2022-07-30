@@ -4,6 +4,7 @@ import {LoginComponent} from "./login/login.component";
 import {RegisterComponent} from "./register/register.component";
 import {CommonModule} from "@angular/common";
 import {RouterModule} from "@angular/router";
+import {MaterialModule} from "../shared-module/material/material.module";
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import {RouterModule} from "@angular/router";
   providers: [],
   imports: [
     CommonModule,
-    RouterModule]
+    RouterModule,
+    MaterialModule]
 })
 export class AuthModule {
 }
