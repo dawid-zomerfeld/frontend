@@ -1,0 +1,41 @@
+.main-container {
+  background: url("~src/assets/images/background_home.jpg") no-repeat fixed center;
+  color: darken(white, 5%);
+  background-size: 100%;
+
+  .main-content {
+    margin-top: -64px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+      font-size: 88px;
+      padding: 25vh 0 30px 0;
+      font-weight: 300;
+      line-height: 10px;
+    }
+
+    .paragraph {
+      font-size: 25px;
+      padding: 20px 0 70px;
+    }
+
+    button {
+      width: 150px;
+      margin: 20px 0;
+
+      &:hover {
+        outline: none
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+
